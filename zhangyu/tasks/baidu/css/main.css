@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+  /* background: rgba(0, 0, 0, 0.5); */
+}
+
+
+
+img{
+  width: 25%;
+}
+
+.clearfix::after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.container{
+  display: block;
+  margin: 0 auto;
+  max-width: 1080px;
+  position: relative;
+  top:38.2%;
+}
+
+.container .main_item{
+  position: relative;
+  top:-50px;
+}
+
+.fl{
+  float:left;
+}
+
+.fr{
+  float: right;
+}
+
+.top_nav{
+  padding: 0px;
+  border-top:1px solid #ebebeb;
+  border-bottom :1px solid #ebebeb;
+}
+
+.top_nav .fl a,
+.top_nav .fl div{
+  font-size: 7px;
+  color: black;
+  padding:6px;
+}
+
+.top_nav .fr a,
+.top_nav .fr div{
+  padding: 6px;
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+
+
+/* .top_nav .fr .more:before{
+  content:"更多产品";
+  padding: 8px;
+  font-size: 10px;
+  color: white;
+  font-weight: 200;
+  margin: 0;
+  background: #3388FF;
+} */
+
+.top_nav .fr .more{
+  padding: 6px;
+  font-size: 10px;
+  color: white;
+  font-weight: 200;
+  margin: 0;
+  background: #3388FF;
+}
+
+.top_nav .fr .more a{
+  text-decoration: none;
+  color: white;
+}
+
+.top_nav .fr .more:hover{
+  background: #F9F9F9;
+}
+
+.top_nav .fr .more a:hover{
+  color: black;
+}
+
+.logo{
+  text-align: center;
+  margin-top: 130px;
+}
+
+.search_bar{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search_bar input,
+.search_bar button{
+  padding: 0;
+  margin: 0;
+  height: 37px;
+}
+
+.search_bar input{
+  width: 500px;
+  border: 1px solid rgba(36, 37, 50, 0.24);
+  border-right: 0;
+}
+
+.search_bar input:hover{
+  border-color: #999;
+}
+
+.search_bar input:focus{
+  border-color: #4791FF;
+  outline: none;
+}
+
+.search_bar button{
+  width: 100px;
+  border: 0;
+  background:#3388FF;
+  cursor: pointer;
+}
+
+.search_bar button:before{
+  content:"百度一下";
+  font-size: 16px;
+  color: white;
+
+}
+
+.search_bar button:hover{
+  background:#297aec;
+}
+
+
+.footer{
+  position: absolute;
+  width:100%;
+  bottom: 47px;
+  text-align: center;
+}
+
+.footer a{
+    font-size: 14px;
+    color: #999;
+}
