@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+
+.container{
+  position: relative;
+  top: 100px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.show{
+  width: 400px;
+  height: 75px;
+  background: white;
+  margin: 0;
+  border:  0.5px solid #BBB;
+}
+
+.show .content{
+  position: relative;
+  top: 14px;
+  float: right;
+  margin: 0;
+  font-size: 36px;
+}
+
+.ac{
+  margin: 0;
+  width: 400px;
+  height: 50px;
+  background: #3ACABD;
+  border-left:  0.5px solid #BBB;
+  border-right: 0.5px solid #BBB;
+  border-bottom:  0.5px solid #BBB;
+  text-align: center;
+}
+
+.ac:hover{
+  background: #35B9AD;
+}
+
+.ac:active{
+  background: #2B978D;
+}
+
+.num{
+  margin: 0;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  /* background: blue; */
+}
+
+.n,
+.c{
+  margin: 0;
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  border-right: 0.5px solid #BBB;
+  border-bottom:  0.5px solid #BBB;
+}
+
+.n{
+  background: #FF4081;
+}
+
+.n:active{
+  background: #DD376F;
+}
+
+.eq{
+  background: #C93CD7;
+}
+
+.eq:active{
+  background: #A532B1;
+}
+
+.c{
+  background: #9390F9;
+}
+
+.c:active{
+  background: #7F7CD7;
+}
+
+.cal{
+  margin: 0;
+  display: inline-block;
+  width: 100px;
+  height: 200px;
+  border-right: 0.5px solid #BBB;
+  border-bottom:  0.5px solid #BBB;
+  /* border: 1px solid #BBB; */
+}
+
+
+
+.cal ,
+.n,
+ .ac{
+    text-align: center;
+    font-size:  32px;
+}
