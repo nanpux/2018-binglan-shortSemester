@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>百度一下，你就知道</title>
+    <style>
+    body{
+        height: 100%;
+    }
+    #chanpin {
+        margin: 20px;
+        font-size:14px;
+        display: flex;
+        align-items:baseline;
+        justify-content:flex-end;    
+    } 
+    .picture {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        flex:0,2,auto;
+    }
+    .bot{
+       position: relative;
+       top: 48px;
+    }
+    .ma{
+       position: relative;
+       top: 34px;
+       margin-top: 10vh;
+    }
+    .input {
+        width: 423px;
+        height: 26px;
+    }
+    .search {
+        height: 32px;
+
+    }
+   
+    </style>
+</head>
+<body>
+    <div id="chanpin">
+        <a href="http://news.baidu.com/">新闻&nbsp&nbsp</a>
+        <a href="https://www.hao123.com/">hao123&nbsp&nbsp</a>
+        <a href="https://map.baidu.com/">地图&nbsp&nbsp</a>
+        <a href="http://v.baidu.com/">视频&nbsp&nbsp</a>
+        <a href="https://tieba.baidu.com/index.html">贴吧&nbsp&nbsp</a>
+        <a href="http://xueshu.baidu.com/">学术&nbsp&nbsp</a>
+        <b>登录&nbsp&nbsp</b>
+        <b>设置&nbsp&nbsp</b>
+    
+        <form style="font-size:10px;color:antiquewhite;float:right;">
+                <select name="更多产品">
+                <option value="更多" selected>更多产品</option>
+                <option value="糯米">糯米</option>
+                <option value="音乐">音乐</option>
+                <option value="知道">知道</option>
+                <option value="文库">文库</option>
+                </select>
+        </form>
+    </div>
+    
+    <div class="picture logo">
+        <img  src="./bd_logo1.png" alt="baidulogo">
+    </div>
+
+    <div class="picture block">
+      <div> <input type="text" class="input"> </div>
+      <div> <input type="button" value="百度一下" class="search"> </div>
+    </div>
+    
+    <div class="picture ma">
+        <img src="./ma.png" alt="二维码">
+    </div>
+    <p class='picture bot'>&copy2018 Baidu</p>
+</body>
+</html>
